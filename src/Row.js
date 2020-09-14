@@ -4,7 +4,7 @@ import "./Row.css";
 
 const base_url = `https://image.tmdb.org/t/p/original/`;
 
-function Row({ title, fetchUrl }) {
+function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
 
   //a snipet of code which runs on based on specific conditional variable
@@ -20,7 +20,7 @@ function Row({ title, fetchUrl }) {
     fetchData();
   }, [fetchUrl]); //[] is dependency
 
-  console.table(movies);
+  // console.table(movies);
 
   return (
     //use BEM
@@ -31,8 +31,10 @@ function Row({ title, fetchUrl }) {
         {movies.map((movie) => (
           <img
             key={movie.id}
-            className="row__poster"
-            src={`${base_url}${movie.poster_path}`}
+            className={`row__poster ${isLargeRow && "row__posterLarge"}`}
+            src={`${base_url}${
+              isLargeRow ? movie.poster_path : movie.backdrop_path
+            }`}
             alt={movie.name}
           />
         ))}
