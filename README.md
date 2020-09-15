@@ -2,7 +2,7 @@
 
 Netflix clone is a simple, responsive, single-page project that uses React, Firebase, HTML5 and CSS3.
 
-The app is live and deployed. Checkout the link at the about section or click on this [link.](netflix-clone-solokrew.web.app/)
+The app is live and deployed. Checkout the link at the about section or click on this [link.](https://netflix-clone-solokrew.web.app/)
 
 ## Screenshots
 
