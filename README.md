@@ -2,6 +2,8 @@
 
 Netflix clone is a simple, responsive, single-page project that uses React, Firebase, HTML5 and CSS3.
 
+The app is live and deployed. Checkout the link at the about section or click on this [link.](netflix-clone-solokrew.web.app/)
+
 ## Screenshots
 
 !["Netflix clone banner and navbar"](https://github.com/jjjunio/Netflix-clone/blob/master/documents/netflix-clone-screenshot.png)
@@ -12,7 +14,7 @@ Netflix clone is a simple, responsive, single-page project that uses React, Fire
 
 ## Modules
 
-Netflix clone uses [react-youtube](https://www.npmjs.com/package/react-youtube) and [movie-trailer](https://www.npmjs.com/package/movie-trailer) for the movie trailer plaback feature. due to this, not all movie trailers can be played.
+Netflix clone uses [react-youtube](https://www.npmjs.com/package/react-youtube) and [movie-trailer](https://www.npmjs.com/package/movie-trailer) for the movie trailer plaback feature. Due to this, not all movie trailers or the correct movie or tv-series can be played.
 
 ## Available Scripts
 
